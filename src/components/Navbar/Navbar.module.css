@@ -2,3 +2,15 @@
     margin: 0 5px;
     font-size: 15px;
 }
+.navi{
+    border-radius: 0em;
+    width: 100%;
+}
+
+
+@media (max-width: 770px) {
+    .container {
+        width: 100%;
+        border-radius: 0px !important;
+    }
+}
