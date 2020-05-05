@@ -6,7 +6,7 @@ import styles from './Navbar.module.css';
 const NavBar = () => {
     return (
         <div className={styles.container}>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" className={styles.navi}>
             <Navbar.Brand href="#home">Swapnil Sharma</Navbar.Brand>
             <Nav className="ml-auto">
             <Nav.Link href="#home" className={styles.links}>Resume</Nav.Link>
